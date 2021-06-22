@@ -1,0 +1,110 @@
+description: "A new Flutter application."
+name: "flutterapp"
+publish_to: "none"
+version: "1.0.0+1"
+dependencies: 
+  cupertino_icons: "^0.1.3"
+  path_drawing: "^0.4.1"
+  flutter: 
+    sdk: "flutter"
+
+dev_dependencies: 
+  flutter_test: 
+    sdk: "flutter"
+  flutter_launcher_icons: ^0.9.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/Logo.jpeg"
+
+environment: 
+  sdk: ">=2.7.0 <3.0.0"
+flutter: 
+  assets: 
+    - "assets/images/"
+  fonts: 
+    - 
+      family: "Permanent Marker"
+      fonts: 
+        - 
+          asset: "fonts/PermanentMarker-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Poppins"
+      fonts: 
+        - 
+          asset: "fonts/Poppins-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Poppins-700.ttf"
+          style: "normal"
+          weight: 700
+    - 
+      family: "Roboto"
+      fonts: 
+        - 
+          asset: "fonts/Roboto-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Roboto-500.ttf"
+          style: "normal"
+          weight: 500
+        - 
+          asset: "fonts/Roboto-700.ttf"
+          style: "normal"
+          weight: 700
+    - 
+      family: "Inter"
+      fonts: 
+        - 
+          asset: "fonts/Inter-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Inter-700.ttf"
+          style: "normal"
+          weight: 700
+    - 
+      family: "Paytone One"
+      fonts: 
+        - 
+          asset: "fonts/PaytoneOne-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Almendra"
+      fonts: 
+        - 
+          asset: "fonts/Almendra-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Vollkorn SC"
+      fonts: 
+        - 
+          asset: "fonts/VollkornSC-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/VollkornSC-700.ttf"
+          style: "normal"
+          weight: 700
+    - 
+      family: "Work Sans"
+      fonts: 
+        - 
+          asset: "fonts/WorkSans-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Alegreya Sans SC"
+      fonts: 
+        - 
+          asset: "fonts/AlegreyaSansSC-700italic.ttf"
+          style: "italic"
+          weight: 700
+  uses-material-design: true
