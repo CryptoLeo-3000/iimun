@@ -49,7 +49,35 @@ Committee Session I + Opening Ceremony + Lobbying
 
                 /* letterSpacing: null, */
               ),
-            )
+            ),
+            TextSpan(
+                text: '''08:00 A.M. to 09:00 A.M.:
+Pilates/Yoga/Fitness Session (Optional)
+
+09:00 A.M. to 11:00 A.M.:
+Committee Session II
+
+11:00 A.M. to 11:15 A.M.:
+Breakfast
+
+11:15 A.M. to 01:15 P.M.:
+Committee Session III
+
+01:15 P.M. to 02:00 P.M.:
+Lunch
+
+02:00 P.M. to 04:00 P.M.:
+Committee Session IV
+
+04:00 P.M. to 04:30 P.M.:
+High-Tea
+
+04:30 P.M. to 06:00 P.M.:
+Committee Session V
+
+06:00 P.M. to 06:45 P.M.:
+Closing Ceremony.'''
+                ),
           ],
         ));
   }
