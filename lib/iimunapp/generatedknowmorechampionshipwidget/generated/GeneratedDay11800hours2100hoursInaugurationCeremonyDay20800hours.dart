@@ -88,7 +88,37 @@ Day 3:
 
                 /* letterSpacing: null, */
               ),
-            )
+            ),
+            TextSpan(
+            text: ''' 08:00 hours - 09:00 hours:
+Session on Yoga/Fitness
+
+09:00 hours - 11:00 hours:
+Committee Session V
+
+11:00 hours - 11:30 hours:
+Recess for Breakfast
+
+11:30 hours - 13:30 hours:
+Committee Session VI
+
+13:30 hours - 14:00 hours:
+Recess for Lunch
+
+14:00 hours - 16:00 hours:
+Committee Session VII
+
+16:00 hours - 16:15 hours:
+Recess for High Tea
+
+16:15 hours - 18:15 hours:
+Committee Session VIII
+
+18:15 hours - 18:30 hours:
+Recess
+
+18:30 hours - 20:00 hours:
+Closing Ceremony'''),
           ],
         ));
   }
